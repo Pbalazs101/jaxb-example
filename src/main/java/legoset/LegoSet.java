@@ -26,8 +26,8 @@ public class LegoSet {
     private Year year;
     private int pieces;
 
-    protected enum wrap {BOX, POLYBAG};
-    private wrap packaging;
+    public enum Packaging {BOX, POLYBAG};
+    private Packaging packaging;
 
 
     @XmlElementWrapper(name = "tags")

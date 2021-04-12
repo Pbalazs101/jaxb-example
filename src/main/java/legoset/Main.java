@@ -19,7 +19,7 @@ public class Main {
        legoset.setSubtheme("Solo");
        legoset.setYear(Year.of(2018));
        legoset.setPieces(519);
-       legoset.setPackaging(LegoSet.wrap.BOX);
+       legoset.setPackaging(LegoSet.Packaging.BOX);
 
        legoset.setTags(Set.of("Starfighter", "Stormtrooper", "Star Wars", "Solo"));
 
