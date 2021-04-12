@@ -1,7 +1,10 @@
 package legoset;
 
+import lombok.Data;
+
 import java.time.Year;
 
+@Data
 public class LegoSet {
 
     private Year year;
